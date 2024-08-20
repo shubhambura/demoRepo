@@ -1,6 +1,6 @@
 const fs = require("fs")
 
-
+// updates
 function cleanFile(fileName){
     return new Promise((resolve)=>{
       let content = fs.readFileSync(fileName,"utf-8")
